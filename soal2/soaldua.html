@@ -1,0 +1,15 @@
+//firstName - Scope: Global, Reassigned: Yes, Redeclared: No, Hoisting: Yes
+firstName adalah variabel global yang bisa diakses dari mana saja di dalam kode Anda.
+Ia dapat diubah nilainya melalui proses reassignment, yaitu menetapkan ulang nilai variabel tersebut dengan menggunakan operator assignment (=). 
+Namun, ia tidak dapat dideklarasikan kembali (redeclared) di dalam kode dengan menggunakan keyword var, let, atau const.
+Variabel ini juga akan terhoist ke atas, atau dibuat pada saat script dijalankan sebelum eksekusi kode dimulai, sehingga Anda dapat mengaksesnya sebelum ia dideklarasikan di dalam kode.
+
+//sum - Scope: Function, Reassigned: Yes, Redeclared: No, Hoisting: Yes
+sum adalah variabel yang hanya bisa diakses di dalam suatu fungsi.
+Ia dapat diubah nilainya melalui proses reassignment, tetapi tidak dapat dideklarasikan kembali di dalam fungsi yang sama.
+Variabel ini juga akan terhoist ke atas seperti variabel global, sehingga Anda dapat mengaksesnya sebelum ia dideklarasikan di dalam kode.
+
+//i - Scope: Block, Reassigned: Yes, Redeclared: No, Hoisting: No
+i adalah variabel yang hanya bisa diakses di dalam suatu blok kode, yang biasanya ditandai dengan tanda kurung kurawal {}.
+Ia dapat diubah nilainya melalui proses reassignment, tetapi tidak dapat dideklarasikan kembali di dalam blok yang sama.
+Variabel ini tidak akan terhoist ke atas seperti variabel global atau fungsi, sehingga Anda harus mengaksesnya setelah ia dideklarasikan di dalam kode.
